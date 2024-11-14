@@ -11,7 +11,7 @@ const Landingpage = () => {
               <div className='w-fit flex '>
                 {index===1 && (<motion.div initial={{width:0}} animate={{width:"9vw"}} 
                 transition={{ease:[0.76,0,0.24,1],duration:1}}
-                className=' rounded-md -top[1.2vw] mr-[1vw]
+                className=' rounded-md  mr-[1vw]
                 w-[9vw] h-[4vw] relative top-[1vw] bg-[url("/img/content.jpg")] bg-contain'></motion.div>)}
               <h1 className='uppercase font-FoundersGrotesk, Roboto, sans-seriffont text-7xl text-[#D3CFCA] leading-[5vw] tracking-tighter font-medium'>{item}</h1>
               </div>
